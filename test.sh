@@ -14,7 +14,7 @@
 # a=`awk "BEGIN {print ($l*111)/1000000}"`
 # echo $a
 
-messages_number="10 1 0.1 0.01 0.001 0.0001 0.00001 0.000001 0.0000001 0.00000001 0.000000001"
+messages_number="1"
 for number in $(echo $messages_number); do
     for (( i = 0; i < 10; i++ )); do
     #statements

@@ -139,7 +139,7 @@ def main(argv):
 
         # sleep
         # time.sleep(random.uniform(minSleep, maxSleep))
-        time.sleep(minSleep)
+        # time.sleep(minSleep)
         # get random data
         # lineToStart = random.randint(0,totalLines)
         # linesToGet = random.randint(minLines, maxLines)
